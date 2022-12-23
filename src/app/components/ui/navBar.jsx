@@ -6,7 +6,7 @@ const NavBar = () => {
             <ul className="nav">
                 <li className="nav-item">
                     <NavLink className="nav-link" aria-current="page" to="/">
-                        Main
+                        Главная
                     </NavLink>
                 </li>
                 <li className="nav-item">
@@ -15,7 +15,7 @@ const NavBar = () => {
                         aria-current="page"
                         to="/users"
                     >
-                        Users
+                        Пользователи
                     </NavLink>
                 </li>
                 <li className="nav-item">

@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <>
             {" "}
-            <Title> Extended Hooks и Оптимизация</Title>
+            <Title>Главная</Title>
         </>
     );
 };

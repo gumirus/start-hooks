@@ -26,12 +26,11 @@ const ChildrenExercise = () => {
     );
 };
 
-// проверка в консоле console.log(child.key)
 // const ComponentsList = ({ children }) => {
 //     const arrayOfChildren = React.Children.toArray(children);
 //     console.log(arrayOfChildren);
 //     return React.Children.map(arrayOfChildren, (child) => {
-//         console.log(child.key);
+//         console.log(child.key); // проверка в консоле console.log(child.key)
 //         return React.cloneElement(child, {
 //             ...child.props,
 //             num: +child.key.replace(".", "") + 1

@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { validator } from "../../../utils/validator";
 import api from "../../../api";
-import TextField from "../../common/form/textField";
-import SelectField from "../../common/form/selectField";
+import { TextField, SelectField } from "../../common/form";
+// import TextField from "../../common/form/textField";
+// import SelectField from "../../common/form/selectField";
 
 const EditUserPage = () => {
     const { userId } = useParams();
